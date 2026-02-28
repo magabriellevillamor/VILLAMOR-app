@@ -13,7 +13,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::jV3qHpi5QXWJBTvX',
+            '_route' => 'generated::PBRhrJyXPF9UpvXZ',
           ),
           1 => NULL,
           2 => 
@@ -33,7 +33,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::scXVrRahRs2ah0HP',
+            '_route' => 'generated::y8e2aGyjZVToAO6I',
           ),
           1 => NULL,
           2 => 
@@ -53,7 +53,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::VJmcKtutPO3ELfed',
+            '_route' => 'generated::cfV2IoKRZaK10j4I',
           ),
           1 => NULL,
           2 => 
@@ -73,7 +73,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::JAseJ0WBVgMlj5Xu',
+            '_route' => 'generated::VFTatjol807Dwe5r',
           ),
           1 => NULL,
           2 => 
@@ -93,7 +93,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::Yok16UDfuhdq3dSW',
+            '_route' => 'generated::SXCW8awNFMboe8qG',
           ),
           1 => NULL,
           2 => 
@@ -113,7 +113,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::PSBrXKkKCo4IfzRH',
+            '_route' => 'generated::aBubg9lPyFsahMjo',
           ),
           1 => NULL,
           2 => 
@@ -133,7 +133,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::bIW9zFWCj4KCdJPr',
+            '_route' => 'generated::okdTZ1gyqAm2h3NP',
           ),
           1 => NULL,
           2 => 
@@ -153,7 +153,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::oM3Xy9Tn1vxySXRn',
+            '_route' => 'generated::ZO9celvIVWEDOjWp',
           ),
           1 => NULL,
           2 => 
@@ -193,7 +193,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::VuXs18OSMPgPnAD3',
+            '_route' => 'generated::lOd9xe15I4H70Z95',
           ),
           1 => NULL,
           2 => 
@@ -213,7 +213,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::LJDLlXTOYVaGE2Ro',
+            '_route' => 'generated::mrDyML6c0RQlnUnn',
           ),
           1 => NULL,
           2 => 
@@ -233,7 +233,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::8hvaAF1FAzoHaQjS',
+            '_route' => 'generated::zceR8ILPMePn9qsu',
           ),
           1 => NULL,
           2 => 
@@ -253,7 +253,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::QvDxg55DdBL9nQkZ',
+            '_route' => 'generated::GF45asPwBQLEyytL',
           ),
           1 => NULL,
           2 => 
@@ -273,7 +273,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::jeBOf1sejyTonSXg',
+            '_route' => 'generated::FWCel3f6uhbUPfR0',
           ),
           1 => NULL,
           2 => 
@@ -290,7 +290,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::pAZfCAv3VRiRS9C1',
+            '_route' => 'generated::7YGg78RNksCddd7W',
           ),
           1 => NULL,
           2 => 
@@ -303,20 +303,96 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-    ),
-    2 => 
-    array (
-      0 => '{^(?|/post/(?|([^/]++)/comment/([^/]++)(*:41)|([0-9]+)(*:56))|/s(?|earch/([A-Za-z]+)(*:86)|torage/(.*)(*:104))|/users/([^/]++)(*:128))/?$}sDu',
-    ),
-    3 => 
-    array (
-      41 => 
+      '/products' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'generated::dCzW4V7fn8ftRXEl',
+            '_route' => 'products.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'products.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/products/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'products.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/product-list' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::8b6Gu1RVSYRGE5VU',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+    ),
+    2 => 
+    array (
+      0 => '{^(?|/p(?|ost/(?|([^/]++)/comment/([^/]++)(*:44)|([0-9]+)(*:59))|roducts/([^/]++)(?|(*:86)|/edit(*:98)|(*:105)))|/s(?|earch/([A-Za-z]+)(*:137)|torage/(.*)(*:156))|/users/([^/]++)(*:180))/?$}sDu',
+    ),
+    3 => 
+    array (
+      44 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::yt03ijj7qKprVLh0',
           ),
           1 => 
           array (
@@ -334,13 +410,13 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      56 => 
+      59 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'generated::uDR0UDRFCpnfjkkJ',
+            '_route' => 'generated::Azao3EpV3VCpArR1',
           ),
           1 => 
           array (
@@ -363,7 +439,95 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::r0oi80mrcZG2agWf',
+            '_route' => 'products.show',
+          ),
+          1 => 
+          array (
+            0 => 'product',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      98 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'products.edit',
+          ),
+          1 => 
+          array (
+            0 => 'product',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      105 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'products.update',
+          ),
+          1 => 
+          array (
+            0 => 'product',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'products.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'product',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      137 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::Vdv0E1M9F6TbufBy',
           ),
           1 => 
           array (
@@ -380,7 +544,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      104 => 
+      156 => 
       array (
         0 => 
         array (
@@ -403,13 +567,13 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      128 => 
+      180 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'generated::hTDGLO5vft0EoncM',
+            '_route' => 'generated::UHSAkaK7un9swYlN',
           ),
           1 => 
           array (
@@ -441,7 +605,7 @@ app('router')->setCompiledRoutes(
   ),
   'attributes' => 
   array (
-    'generated::jV3qHpi5QXWJBTvX' => 
+    'generated::PBRhrJyXPF9UpvXZ' => 
     array (
       'methods' => 
       array (
@@ -458,13 +622,13 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:90:"function (\\Illuminate\\Http\\Request $request) {
     echo \'Welcome APi - Test Middleware\';
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000005330000000000000000";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004d40000000000000000";}}',
         'namespace' => NULL,
         'prefix' => 'api',
         'where' => 
         array (
         ),
-        'as' => 'generated::jV3qHpi5QXWJBTvX',
+        'as' => 'generated::PBRhrJyXPF9UpvXZ',
       ),
       'fallback' => false,
       'defaults' => 
@@ -480,7 +644,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::scXVrRahRs2ah0HP' => 
+    'generated::y8e2aGyjZVToAO6I' => 
     array (
       'methods' => 
       array (
@@ -508,8 +672,8 @@ app('router')->setCompiledRoutes(
                     return response(\\Illuminate\\Support\\Facades\\View::file(\'C:\\\\xampp\\\\htdocs\\\\VILLAMOR-app\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Configuration\'.\'/../resources/health-up.blade.php\', [
                         \'exception\' => $exception,
                     ]), status: $exception ? 500 : 200);
-                }";s:5:"scope";s:54:"Illuminate\\Foundation\\Configuration\\ApplicationBuilder";s:4:"this";N;s:4:"self";s:32:"00000000000005310000000000000000";}}',
-        'as' => 'generated::scXVrRahRs2ah0HP',
+                }";s:5:"scope";s:54:"Illuminate\\Foundation\\Configuration\\ApplicationBuilder";s:4:"this";N;s:4:"self";s:32:"00000000000004d20000000000000000";}}',
+        'as' => 'generated::y8e2aGyjZVToAO6I',
       ),
       'fallback' => false,
       'defaults' => 
@@ -525,7 +689,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::VJmcKtutPO3ELfed' => 
+    'generated::cfV2IoKRZaK10j4I' => 
     array (
       'methods' => 
       array (
@@ -539,15 +703,16 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
         ),
-        'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:43:"function () {
-    return "Hello, World!";
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000005380000000000000000";}}',
+        'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:74:"function () {
+    return \\view(\'welcome\', [\'index\' => \'VILLAMOR-app\']);
+
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004d90000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'generated::VJmcKtutPO3ELfed',
+        'as' => 'generated::cfV2IoKRZaK10j4I',
       ),
       'fallback' => false,
       'defaults' => 
@@ -563,7 +728,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::JAseJ0WBVgMlj5Xu' => 
+    'generated::VFTatjol807Dwe5r' => 
     array (
       'methods' => 
       array (
@@ -584,7 +749,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::JAseJ0WBVgMlj5Xu',
+        'as' => 'generated::VFTatjol807Dwe5r',
       ),
       'fallback' => false,
       'defaults' => 
@@ -600,7 +765,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::Yok16UDfuhdq3dSW' => 
+    'generated::SXCW8awNFMboe8qG' => 
     array (
       'methods' => 
       array (
@@ -617,13 +782,13 @@ app('router')->setCompiledRoutes(
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:104:"function (\\Illuminate\\Http\\Request $request) {
     $input = $request->input(\'key\');
     return $input;
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000000000053b0000000000000000";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004dc0000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'generated::Yok16UDfuhdq3dSW',
+        'as' => 'generated::SXCW8awNFMboe8qG',
       ),
       'fallback' => false,
       'defaults' => 
@@ -639,7 +804,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::PSBrXKkKCo4IfzRH' => 
+    'generated::aBubg9lPyFsahMjo' => 
     array (
       'methods' => 
       array (
@@ -655,13 +820,13 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:96:"function(\\App\\Services\\UserService $userService):mixed {
     return $userService->listUsers();
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000000000053d0000000000000000";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004de0000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'generated::PSBrXKkKCo4IfzRH',
+        'as' => 'generated::aBubg9lPyFsahMjo',
       ),
       'fallback' => false,
       'defaults' => 
@@ -677,7 +842,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::bIW9zFWCj4KCdJPr' => 
+    'generated::okdTZ1gyqAm2h3NP' => 
     array (
       'methods' => 
       array (
@@ -698,7 +863,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::bIW9zFWCj4KCdJPr',
+        'as' => 'generated::okdTZ1gyqAm2h3NP',
       ),
       'fallback' => false,
       'defaults' => 
@@ -714,7 +879,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::oM3Xy9Tn1vxySXRn' => 
+    'generated::ZO9celvIVWEDOjWp' => 
     array (
       'methods' => 
       array (
@@ -730,13 +895,13 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:134:"function(\\App\\Services\\UserService $userService) {
     return \\Illuminate\\Support\\Facades\\Response::json($userService->listUsers());
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000005400000000000000000";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004e10000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'generated::oM3Xy9Tn1vxySXRn',
+        'as' => 'generated::ZO9celvIVWEDOjWp',
       ),
       'fallback' => false,
       'defaults' => 
@@ -752,7 +917,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::dCzW4V7fn8ftRXEl' => 
+    'generated::yt03ijj7qKprVLh0' => 
     array (
       'methods' => 
       array (
@@ -768,13 +933,13 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:103:"function (string $postId, string $comment) {
 return "Post ID: " . $postId . ", Comment: " . $comment;
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000005420000000000000000";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004e30000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'generated::dCzW4V7fn8ftRXEl',
+        'as' => 'generated::yt03ijj7qKprVLh0',
       ),
       'fallback' => false,
       'defaults' => 
@@ -790,7 +955,7 @@ return "Post ID: " . $postId . ", Comment: " . $comment;
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::uDR0UDRFCpnfjkkJ' => 
+    'generated::Azao3EpV3VCpArR1' => 
     array (
       'methods' => 
       array (
@@ -806,13 +971,13 @@ return "Post ID: " . $postId . ", Comment: " . $comment;
         ),
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:41:"function (string $id) {
     return $id;
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000005440000000000000000";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004e50000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'generated::uDR0UDRFCpnfjkkJ',
+        'as' => 'generated::Azao3EpV3VCpArR1',
       ),
       'fallback' => false,
       'defaults' => 
@@ -829,7 +994,7 @@ return "Post ID: " . $postId . ", Comment: " . $comment;
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::r0oi80mrcZG2agWf' => 
+    'generated::Vdv0E1M9F6TbufBy' => 
     array (
       'methods' => 
       array (
@@ -845,13 +1010,13 @@ return "Post ID: " . $postId . ", Comment: " . $comment;
         ),
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:49:"function (string $search) {
     return $search;
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000005460000000000000000";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004e70000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'generated::r0oi80mrcZG2agWf',
+        'as' => 'generated::Vdv0E1M9F6TbufBy',
       ),
       'fallback' => false,
       'defaults' => 
@@ -884,7 +1049,7 @@ return "Post ID: " . $postId . ", Comment: " . $comment;
         ),
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:48:"function () {
     return \\route(\'test-route\');
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000005480000000000000000";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004e90000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
@@ -906,7 +1071,7 @@ return "Post ID: " . $postId . ", Comment: " . $comment;
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::VuXs18OSMPgPnAD3' => 
+    'generated::lOd9xe15I4H70Z95' => 
     array (
       'methods' => 
       array (
@@ -923,13 +1088,13 @@ return "Post ID: " . $postId . ", Comment: " . $comment;
         ),
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:74:"function (\\Illuminate\\Http\\Request $request) {
         echo "first";
-    }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000000000054c0000000000000000";}}',
+    }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004ed0000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'generated::VuXs18OSMPgPnAD3',
+        'as' => 'generated::lOd9xe15I4H70Z95',
       ),
       'fallback' => false,
       'defaults' => 
@@ -945,7 +1110,7 @@ return "Post ID: " . $postId . ", Comment: " . $comment;
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::LJDLlXTOYVaGE2Ro' => 
+    'generated::mrDyML6c0RQlnUnn' => 
     array (
       'methods' => 
       array (
@@ -962,13 +1127,13 @@ return "Post ID: " . $postId . ", Comment: " . $comment;
         ),
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:75:"function (\\Illuminate\\Http\\Request $request) {
         echo "second";
-    }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000000000054e0000000000000000";}}',
+    }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004ef0000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'generated::LJDLlXTOYVaGE2Ro',
+        'as' => 'generated::mrDyML6c0RQlnUnn',
       ),
       'fallback' => false,
       'defaults' => 
@@ -984,7 +1149,7 @@ return "Post ID: " . $postId . ", Comment: " . $comment;
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::8hvaAF1FAzoHaQjS' => 
+    'generated::zceR8ILPMePn9qsu' => 
     array (
       'methods' => 
       array (
@@ -997,6 +1162,7 @@ return "Post ID: " . $postId . ", Comment: " . $comment;
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'user-middleware',
         ),
         'uses' => 'App\\Http\\Controllers\\UserController@index',
         'controller' => 'App\\Http\\Controllers\\UserController@index',
@@ -1005,7 +1171,7 @@ return "Post ID: " . $postId . ", Comment: " . $comment;
         'where' => 
         array (
         ),
-        'as' => 'generated::8hvaAF1FAzoHaQjS',
+        'as' => 'generated::zceR8ILPMePn9qsu',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1021,7 +1187,7 @@ return "Post ID: " . $postId . ", Comment: " . $comment;
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::QvDxg55DdBL9nQkZ' => 
+    'generated::GF45asPwBQLEyytL' => 
     array (
       'methods' => 
       array (
@@ -1042,7 +1208,7 @@ return "Post ID: " . $postId . ", Comment: " . $comment;
         'where' => 
         array (
         ),
-        'as' => 'generated::QvDxg55DdBL9nQkZ',
+        'as' => 'generated::GF45asPwBQLEyytL',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1058,7 +1224,7 @@ return "Post ID: " . $postId . ", Comment: " . $comment;
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::hTDGLO5vft0EoncM' => 
+    'generated::UHSAkaK7un9swYlN' => 
     array (
       'methods' => 
       array (
@@ -1079,7 +1245,7 @@ return "Post ID: " . $postId . ", Comment: " . $comment;
         'where' => 
         array (
         ),
-        'as' => 'generated::hTDGLO5vft0EoncM',
+        'as' => 'generated::UHSAkaK7un9swYlN',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1095,7 +1261,7 @@ return "Post ID: " . $postId . ", Comment: " . $comment;
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::jeBOf1sejyTonSXg' => 
+    'generated::FWCel3f6uhbUPfR0' => 
     array (
       'methods' => 
       array (
@@ -1111,13 +1277,13 @@ return "Post ID: " . $postId . ", Comment: " . $comment;
         ),
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:75:"function (\\Illuminate\\Http\\Request $request) {
     return \\view(\'token\');
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000000000054a0000000000000000";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004eb0000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'generated::jeBOf1sejyTonSXg',
+        'as' => 'generated::FWCel3f6uhbUPfR0',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1133,7 +1299,7 @@ return "Post ID: " . $postId . ", Comment: " . $comment;
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::pAZfCAv3VRiRS9C1' => 
+    'generated::7YGg78RNksCddd7W' => 
     array (
       'methods' => 
       array (
@@ -1148,13 +1314,309 @@ return "Post ID: " . $postId . ", Comment: " . $comment;
         ),
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:76:"function (\\Illuminate\\Http\\Request $request) {
     return $request->all();
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000005530000000000000000";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004f40000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'generated::pAZfCAv3VRiRS9C1',
+        'as' => 'generated::7YGg78RNksCddd7W',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'products.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'products',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'as' => 'products.index',
+        'uses' => 'App\\Http\\Controllers\\ProductController@index',
+        'controller' => 'App\\Http\\Controllers\\ProductController@index',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'products.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'products/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'as' => 'products.create',
+        'uses' => 'App\\Http\\Controllers\\ProductController@create',
+        'controller' => 'App\\Http\\Controllers\\ProductController@create',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'products.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'products',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'as' => 'products.store',
+        'uses' => 'App\\Http\\Controllers\\ProductController@store',
+        'controller' => 'App\\Http\\Controllers\\ProductController@store',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'products.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'products/{product}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'as' => 'products.show',
+        'uses' => 'App\\Http\\Controllers\\ProductController@show',
+        'controller' => 'App\\Http\\Controllers\\ProductController@show',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'products.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'products/{product}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'as' => 'products.edit',
+        'uses' => 'App\\Http\\Controllers\\ProductController@edit',
+        'controller' => 'App\\Http\\Controllers\\ProductController@edit',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'products.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'products/{product}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'as' => 'products.update',
+        'uses' => 'App\\Http\\Controllers\\ProductController@update',
+        'controller' => 'App\\Http\\Controllers\\ProductController@update',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'products.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'products/{product}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'as' => 'products.destroy',
+        'uses' => 'App\\Http\\Controllers\\ProductController@destroy',
+        'controller' => 'App\\Http\\Controllers\\ProductController@destroy',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::8b6Gu1RVSYRGE5VU' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'product-list',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:156:"function (\\App\\Services\\ProductService $productService) {
+    $data[\'product\'] = $productService->listProducts();
+    return \\view(\'product.list\', $data);
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004f70000000000000000";}}',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::8b6Gu1RVSYRGE5VU',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1186,7 +1648,7 @@ return "Post ID: " . $postId . ", Comment: " . $comment;
                         $config,
                         $isProduction
                     ))($request, $path);
-                }";s:5:"scope";s:47:"Illuminate\\Filesystem\\FilesystemServiceProvider";s:4:"this";N;s:4:"self";s:32:"00000000000005550000000000000000";}}',
+                }";s:5:"scope";s:47:"Illuminate\\Filesystem\\FilesystemServiceProvider";s:4:"this";N;s:4:"self";s:32:"00000000000004f80000000000000000";}}',
         'as' => 'storage.local',
       ),
       'fallback' => false,

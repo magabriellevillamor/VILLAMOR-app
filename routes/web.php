@@ -6,10 +6,13 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Response;
 use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
+use App\Http\Controllers\ProductController;
+use App\Services\ProductService;
 
 
 Route::get('/', function () {
-    return "Hello, World!";
+    return view('welcome', ['index' => 'VILLAMOR-app']);
+
 });
 
 Route::get('/show-user', [UserController::class, 'show']);
@@ -78,4 +81,17 @@ Route::get('/token', function (Request $request) {
 
 Route::post('/token', function (Request $request) {
     return $request->all();
+});
+
+//Controller
+//Middleware
+Route::get('/users', [UserController::class, 'index'])->middleware('user-middleware');
+
+//Resource
+Route::resource('products', ProductController::class);
+
+//View with data
+Route::get('/product-list', function (ProductService $productService) {
+    $data['product'] = $productService->listProducts();
+    return view('product.list', $data);
 });

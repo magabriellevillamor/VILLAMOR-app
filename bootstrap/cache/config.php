@@ -94,7 +94,6 @@
     array (
       'rounds' => '12',
       'verify' => true,
-      'limit' => NULL,
     ),
     'argon' => 
     array (
@@ -126,7 +125,7 @@
     'fallback_locale' => 'en',
     'faker_locale' => 'en_US',
     'cipher' => 'AES-256-CBC',
-    'key' => 'base64:NSlL4L64Ud/GEcYgbgGgPZtKGPEnHYK6ZuzSjmOMHik=',
+    'key' => 'base64:FEZWAvh2f+/5fmMZrCseuZCXNg1D21us5r0MxLuQZQU=',
     'previous_keys' => 
     array (
     ),
@@ -161,7 +160,8 @@
       21 => 'Illuminate\\Validation\\ValidationServiceProvider',
       22 => 'Illuminate\\View\\ViewServiceProvider',
       23 => 'App\\Providers\\AppServiceProvider',
-      24 => 'App\\Providers\\UserServiceProvider',
+      24 => 'App\\Providers\\ProductServiceProvider',
+      25 => 'App\\Providers\\UserServiceProvider',
     ),
     'aliases' => 
     array (
@@ -169,7 +169,6 @@
       'Arr' => 'Illuminate\\Support\\Arr',
       'Artisan' => 'Illuminate\\Support\\Facades\\Artisan',
       'Auth' => 'Illuminate\\Support\\Facades\\Auth',
-      'Benchmark' => 'Illuminate\\Support\\Benchmark',
       'Blade' => 'Illuminate\\Support\\Facades\\Blade',
       'Broadcast' => 'Illuminate\\Support\\Facades\\Broadcast',
       'Bus' => 'Illuminate\\Support\\Facades\\Bus',
@@ -206,8 +205,8 @@
       'Session' => 'Illuminate\\Support\\Facades\\Session',
       'Storage' => 'Illuminate\\Support\\Facades\\Storage',
       'Str' => 'Illuminate\\Support\\Str',
-      'Uri' => 'Illuminate\\Support\\Uri',
       'URL' => 'Illuminate\\Support\\Facades\\URL',
+      'Uri' => 'Illuminate\\Support\\Uri',
       'Validator' => 'Illuminate\\Support\\Facades\\Validator',
       'View' => 'Illuminate\\Support\\Facades\\View',
       'Vite' => 'Illuminate\\Support\\Facades\\Vite',
@@ -257,11 +256,6 @@
       array (
         'driver' => 'array',
         'serialize' => false,
-      ),
-      'session' => 
-      array (
-        'driver' => 'session',
-        'key' => '_cache',
       ),
       'database' => 
       array (
@@ -726,6 +720,10 @@
       array (
         'driver' => 'deferred',
       ),
+      'background' => 
+      array (
+        'driver' => 'background',
+      ),
       'failover' => 
       array (
         'driver' => 'failover',
@@ -734,10 +732,6 @@
           0 => 'database',
           1 => 'deferred',
         ),
-      ),
-      'background' => 
-      array (
-        'driver' => 'background',
       ),
     ),
     'batching' => 
@@ -758,15 +752,15 @@
     array (
       'key' => NULL,
     ),
-    'resend' => 
-    array (
-      'key' => NULL,
-    ),
     'ses' => 
     array (
       'key' => '',
       'secret' => '',
       'region' => 'us-east-1',
+    ),
+    'resend' => 
+    array (
+      'key' => NULL,
     ),
     'slack' => 
     array (
