@@ -1,8 +1,7 @@
-<h1>Product List</h1>
+<x-layout>
+    <x-slot name="heading">Product List</x-slot>
 
-<div>
-    <!-- Be present above all else. - Naval Ravikant -->
-<table class="table">
+<x-table>
     <thead>
         <tr>
             <th>Id</th>
@@ -22,15 +21,22 @@
 </table>
 </div>
 
-<h1>Tasks</h1>
+<!-- <h1>Tasks</h1>
 <ul>
     @foreach ($tasks as $task)
         <li>{{ $task }}</li>
-    @endforeach
+    @endforeach -->
+</x-table>
+</x-layout>
+
+<!--<div>
+     Be present above all else. - Naval Ravikant 
+<table class="table">
+    
 </ul>
 
 <p>Global Variables </p>
 <p>{{ $sharedVariable }}</p>
 
-<p>Product Key: {{ $productKey }}</p>
+<p>Product Key: {{ $productKey }}</p> -->
 

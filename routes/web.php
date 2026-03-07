@@ -85,7 +85,9 @@ Route::post('/token', function (Request $request) {
 
 //Controller
 //Middleware
-Route::get('/users', [UserController::class, 'index'])->middleware('user-middleware');
+//Route::get('/users', [UserController::class, 'index'])->middleware('user-middleware');
+
+Route::get('/users', [UserController::class, 'index']);
 
 //Resource
 Route::resource('products', ProductController::class);
@@ -95,3 +97,5 @@ Route::get('/product-list', function (ProductService $productService) {
     $data['products'] = $productService->listProducts();
     return view('products.list', $data);
 });
+
+//Blade Templates
